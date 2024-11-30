@@ -1,0 +1,157 @@
+﻿.content{
+    padding-right: 20px;
+    margin: auto;
+}
+.demo{
+    background: #F00;
+}
+.imgbanner {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 98%;
+    height: auto;
+}
+.logo{
+    padding-left:4px;
+}
+.searchbox {
+    text-align: right;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffe7e8;
+}
+.menuitem {
+    padding-right: 50px;
+    color: #000;
+    text-decoration: none;
+}
+.leftbanner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rightbanner {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #ffe7e8;
+    height:auto;
+}
+
+.regis {
+    padding-right: 30px;
+}
+.form {
+    padding-left: 40px;
+}
+.input {
+    padding-left: 10px;
+}
+.r {
+    line-height: 2;
+}
+.container {
+    display: flex;
+}
+.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F00;
+    color: #FFF;
+}
+.h1{
+    color:#F00;
+}
+.lefserving {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 4;
+}
+
+.rightserving {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex: 4;
+}
+.imgleftserving {
+    padding-left: 20px;
+    width:100%;
+}
+.imgcontainer {
+    margin-left:20px;
+    display: flex;
+    justify-content: space-between;
+}
+.imgserving {
+    margin: 0 10px;
+    width: 30%;
+}
+.serving {
+    padding-left: 30px;
+}
+.imgdish {
+    width: 200px;
+    height:200px;
+}
+.box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+    box-sizing: border-box;
+    height: 202px; /* Chiều cao cố định của mỗi ô */
+    position: relative;
+}
+    .box::before,
+    .box::after {
+        content: "";
+        position: absolute;
+        left: 20px;
+        right: 0;
+        height: 1px;
+    }
+.boxtable {
+    display:flow;
+    border: 1px solid #808080;
+    height: 205px; /* Chiều cao cố định của mỗi ô */
+}
+.btn {
+    align-self: flex-end;
+    margin-bottom: 10px; /* Cách lề dưới 10px */
+}
+.dtop {
+    margin-left:6px;
+    padding-top: 0; /* Đảm bảo chữ sát cạnh trên */
+}
+.mtop{
+    margin-top:10px;
+}
+.mleft{
+    margin-left:5px;
+}
+.mleftd{
+    margin-left:20px;
+}
+.mrightd {
+    margin-right: 20px;
+}
+.foot {
+    margin: 20px 10px 20px 10px;
+    padding-top: 10px;
+    background-color: #ffe7e8;
+    color: #000;
+    text-align: center;
+}
+.footprint{
+    margin-top: 20px;
+}
